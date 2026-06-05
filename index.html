@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Harmony Homeocare – Dr. Richa Tripathi</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="fonts/fonts.css">
+<script src="jquery-3.7.1.min.js"></script>
 <style>
   /* ── CSS Variables ── */
   :root {
@@ -80,7 +80,7 @@
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
     transition: background var(--transition), color var(--transition);
@@ -113,7 +113,7 @@
   .nav-title { line-height: 1.1; }
   .nav-title span:first-child {
     display: block;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: 1.1rem; font-weight: 700; color: var(--green);
   }
   .nav-title span:last-child {
@@ -160,7 +160,7 @@
   .btn-appt {
     background: linear-gradient(135deg, var(--green), var(--green-light));
     color: white; border: none; padding: 9px 20px; border-radius: 30px;
-    font-family: 'DM Sans', sans-serif; font-size: .85rem; font-weight: 600;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: .85rem; font-weight: 600;
     cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
     box-shadow: 0 4px 14px rgba(45,122,79,.35);
     transition: transform .2s, box-shadow .2s;
@@ -211,7 +211,7 @@
   @keyframes fadeInRight { from{opacity:0;transform:translateX(30px)} to{opacity:1;transform:translateX(0)} }
 
   .hero-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: clamp(2.4rem, 4.5vw, 3.6rem);
     line-height: 1.15; color: var(--text);
     margin-bottom: 18px;
@@ -231,7 +231,7 @@
   }
   .stat { text-align: center; }
   .stat-num {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: 2rem; font-weight: 700; color: var(--green); line-height: 1;
   }
   .stat-label { font-size: .75rem; color: var(--text2); letter-spacing: .04em; text-transform: uppercase; margin-top: 4px; }
@@ -243,7 +243,7 @@
   .btn-primary {
     background: linear-gradient(135deg, var(--green), var(--green-light));
     color: white; border: none; padding: 14px 28px; border-radius: 50px;
-    font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 600;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: .95rem; font-weight: 600;
     cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
     box-shadow: 0 6px 20px rgba(45,122,79,.4);
     transition: transform .2s, box-shadow .2s;
@@ -252,7 +252,7 @@
   .btn-outline {
     background: transparent; color: var(--green);
     border: 2px solid var(--green); padding: 12px 26px; border-radius: 50px;
-    font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 600;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: .95rem; font-weight: 600;
     cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
     transition: background .2s, color .2s, transform .2s;
   }
@@ -287,7 +287,7 @@
     box-shadow: 0 6px 18px rgba(45,122,79,.35);
     border: 3px solid var(--bg);
   }
-  .doctor-name { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--text); }
+  .doctor-name { font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif; font-size: 1.3rem; font-weight: 700; color: var(--text); }
   .doctor-deg { font-size: .82rem; color: var(--green); font-weight: 600; margin: 2px 0; }
   .doctor-spec { font-size: .78rem; color: var(--text2); }
 
@@ -322,7 +322,7 @@
     color: var(--green); font-weight: 600; margin-bottom: 10px;
   }
   .section-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: clamp(1.8rem, 3vw, 2.6rem); color: var(--text); line-height: 1.2;
     margin-bottom: 14px;
   }
@@ -476,7 +476,7 @@
   }
   .modal-close:hover { background: var(--red); color: white; }
   .modal h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: 1.5rem; color: var(--text); margin-bottom: 6px;
   }
   .modal p { font-size: .88rem; color: var(--text2); margin-bottom: 28px; }
@@ -488,7 +488,7 @@
   .form-group input, .form-group select, .form-group textarea {
     width: 100%; padding: 11px 14px; border-radius: 10px;
     border: 1px solid var(--border); background: var(--bg3); color: var(--text);
-    font-family: 'DM Sans', sans-serif; font-size: .92rem;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: .92rem;
     transition: border-color .2s, background var(--transition), color var(--transition);
     outline: none;
   }
@@ -499,7 +499,7 @@
   .form-submit {
     width: 100%; padding: 13px; border-radius: 50px;
     background: linear-gradient(135deg, var(--green), var(--green-light));
-    color: white; border: none; font-family: 'DM Sans', sans-serif;
+    color: white; border: none; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 1rem; font-weight: 700; cursor: pointer;
     box-shadow: 0 4px 16px rgba(45,122,79,.4);
     transition: transform .2s, box-shadow .2s;
@@ -513,7 +513,7 @@
   }
   .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; max-width: 1200px; margin: 0 auto 40px; }
   .footer-brand .brand-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: 1.4rem; color: var(--green); margin-bottom: 8px;
   }
   .footer-brand p { font-size: .85rem; color: var(--text2); line-height: 1.7; max-width: 280px; }
@@ -642,7 +642,7 @@
     justify-content: flex-end; padding: 24px;
   }
   .strip-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
     font-size: 1.3rem; color: white; font-weight: 700; margin-bottom: 6px;
   }
   .strip-desc { font-size: .82rem; color: rgba(255,255,255,.85); line-height: 1.5; }
@@ -843,42 +843,42 @@
     </div>
     <div class="conditions-grid">
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&q=80" alt="Fever & Infections" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases1.jpg" alt="Fever & Infections" loading="lazy">
         <div class="condition-label">🌡️ Fever & Infections</div>
         <div class="condition-sub">Viral fever, cold, cough, flu — fast relief without antibiotics.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&q=80" alt="Headache & Migraine" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases2.jpg" alt="Headache & Migraine" loading="lazy">
         <div class="condition-label">🧠 Headache & Migraine</div>
         <div class="condition-sub">Constitutional remedies that break chronic migraine cycles.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80" alt="Respiratory & Asthma" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases3.jpg" alt="Respiratory & Asthma" loading="lazy">
         <div class="condition-label">🫁 Respiratory & Asthma</div>
         <div class="condition-sub">Asthma, sinusitis, allergic rhinitis — managed without steroids.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=400&q=80" alt="Skin Disorders" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases4.jpg" alt="Skin Disorders" loading="lazy">
         <div class="condition-label">✨ Skin Disorders</div>
         <div class="condition-sub">Eczema, psoriasis, acne, urticaria — treated from the inside out.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=400&q=80" alt="Diabetes & Thyroid" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases5.jpg" alt="Diabetes & Thyroid" loading="lazy">
         <div class="condition-label">🧬 Diabetes & Thyroid</div>
         <div class="condition-sub">Metabolic conditions managed holistically for long-term balance.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&q=80" alt="Stress & Anxiety" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases6.jpg" alt="Stress & Anxiety" loading="lazy">
         <div class="condition-label">🧘 Stress & Anxiety</div>
         <div class="condition-sub">Mind-body approach for sleep disorders, anxiety and depression.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=400&q=80" alt="Joint & Back Pain" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases7.jpg" alt="Joint & Back Pain" loading="lazy">
         <div class="condition-label">🦴 Joint & Back Pain</div>
         <div class="condition-sub">Arthritis, backache, sciatica — pain relief and mobility restoration.</div>
       </div>
       <div class="condition-card reveal">
-        <img class="condition-img" src="https://images.unsplash.com/photo-1619994403073-2cec844b8e63?w=400&q=80" alt="Digestive Issues" loading="lazy">
+        <img class="condition-img" src="images/Diseases/Diseases8.jpg" alt="Digestive Issues" loading="lazy">
         <div class="condition-label">🫃 Digestive Issues</div>
         <div class="condition-sub">Acidity, IBS, diarrhoea, stomach ache — gentle gut healing.</div>
       </div>
@@ -887,7 +887,7 @@
     <!-- Women's Health & Child Care Visual Strip -->
     <div class="visual-strip reveal">
       <div class="strip-panel">
-        <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&q=80" alt="Women's Health & Pregnancy" loading="lazy">
+        <img src="images/visual-strip/visual-strip1.jpg" alt="Women's Health & Pregnancy" loading="lazy">
         <div class="strip-overlay">
           <span class="strip-badge">🌸 Women's Health</span>
           <div class="strip-title">Care Through Every Stage</div>
@@ -895,7 +895,7 @@
         </div>
       </div>
       <div class="strip-panel">
-        <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80" alt="Child Behaviour & Paediatrics" loading="lazy">
+        <img src="images/visual-strip/visual-strip2.jpg" alt="Child Behaviour & Paediatrics" loading="lazy">
         <div class="strip-overlay">
           <span class="strip-badge">🧒 Paediatric Care</span>
           <div class="strip-title">Gentle Healing for Children</div>
@@ -912,7 +912,7 @@
     <div class="about-grid">
       <div class="about-img-wrap reveal">
         <div class="about-img-block">
-          <div class="about-big-icon">🌿</div>
+          <img src="images/Doctor/RichaTripathi.png" class="" height="500" width="500">
           <div class="about-cert">
             <div class="cert-title">🏆 Private Batch 3 Award Recipient</div>
             <div class="cert-sub">Recognised for excellence in homeopathic practice</div>
@@ -1054,42 +1054,42 @@
     </div>
     <div class="disease-hex-grid">
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80" alt="Viral Fever">
+        <img class="hex-img" src="images/heal/heal1.jpg" alt="Viral Fever">
         <div class="hex-info">
           <div class="hex-name">🌡️ Viral Fever</div>
           <div class="hex-desc">Quick recovery with gentle constitutional remedies.</div>
         </div>
       </div>
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=200&q=80" alt="Headache">
+        <img class="hex-img" src="images/heal/heal2.jpg" alt="Headache">
         <div class="hex-info">
           <div class="hex-name">🤕 Headache</div>
           <div class="hex-desc">Chronic headaches resolved at the root — drug-free.</div>
         </div>
       </div>
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80" alt="Height & Growth">
+        <img class="hex-img" src="images/heal/heal3.jpg" alt="Height & Growth">
         <div class="hex-info">
           <div class="hex-name">📈 Height Increasing</div>
           <div class="hex-desc">Nutritional & constitutional support for healthy growth in children.</div>
         </div>
       </div>
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80" alt="Itching & Skin">
+        <img class="hex-img" src="images/heal/heal4.jpg" alt="Itching & Skin">
         <div class="hex-info">
           <div class="hex-name">🩹 Itching & Eczema</div>
           <div class="hex-desc">Skin conditions treated holistically — no topical steroids needed.</div>
         </div>
       </div>
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80" alt="Malabsorption">
+        <img class="hex-img" src="images/heal/heal5.jpg" alt="Malabsorption">
         <div class="hex-info">
           <div class="hex-name">🍽️ Malabsorption</div>
           <div class="hex-desc">Underweight & gut absorption issues corrected naturally.</div>
         </div>
       </div>
       <div class="hex-card reveal">
-        <img class="hex-img" src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=200&q=80" alt="Stomach Ache">
+        <img class="hex-img" src="images/heal/heal6.jpg" alt="Stomach Ache">
         <div class="hex-info">
           <div class="hex-name">🫃 Stomach Ache</div>
           <div class="hex-desc">IBS, gastritis, acidity — lasting digestive relief.</div>
@@ -1289,12 +1289,42 @@ $(function(){
     const name = $('#fname').val().trim();
     const phone = $('#phone').val().trim();
     if(!name || !phone){ alert('Please enter your name and phone number.'); return; }
-    closeModal();
-    const toast = $('#toast');
-    toast.css('display','flex');
-    setTimeout(()=>{ toast.fadeOut(400, function(){ $(this).css('display','none'); }); }, 3500);
-    $('#fname, #lname, #phone, #apptDate, #apptTime, #complaint').val('');
+    //closeModal();
+    //const toast = $('#toast');
+    //toast.css('display','flex');
+    //setTimeout(()=>{ toast.fadeOut(400, function(){ $(this).css('display','none'); }); }, 3500);
+    //$('#fname, #lname, #phone, #apptDate, #apptTime, #complaint').val('');
+bookAppointment(name,phone)
   });
+
+
+
+const whatsappNumber = "919795998917";
+
+function bookAppointment(name,mobile){
+    
+    //let doctor = document.getElementById("doctor").value;
+    let date = document.getElementById("apptDate").value;
+    let time = document.getElementById("apptTime").value;
+    let problem = document.getElementById("complaint").value;
+
+    let message =
+`🩺 New Appointment Request
+
+Patient Name: ${name}
+Mobile: ${mobile}
+Date: ${date}
+Time: ${time}
+Symptoms:
+${problem}`;
+
+    window.open(
+        `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`,
+        "_blank"
+    );
+}
+
+
 
   // ── Scroll Reveal ──
   const observer = new IntersectionObserver(function(entries){
